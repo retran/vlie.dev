@@ -44,22 +44,9 @@
             color: #fff;
             font-weight: bold;
         }
-
-        p {
-            margin-bottom: 0.5rem;
+        .last {
+            margin-top: 1.3rem;
         }
-        .dimmed {
-            color: #8b949e;
-            margin-bottom: 1.5rem;
-        }
-        a {
-            color: var(--accent-color);
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-
         .cursor {
             display: inline-block;
             width: 8px;
@@ -80,7 +67,7 @@
 <body>
 
     <div>
-        <div class="prompt"><span class="command">vlie</span></div>
+        <div class="prompt"><span class="command">vlie --info</span></div>
 
         <p>A headless semantic platform for the JVM ecosystem.<br>
         High performance, low memory footprint, zero JVM at runtime.</p>
@@ -95,8 +82,7 @@
         <div class="prompt"><span class="command">cat links.txt</span></div>
         <p>Follow updates: <a href="https://github.com/retran" target="_blank">github.com/retran</a></p>
 
-        <br>
-        <div class="prompt"><span class="cursor"></span></div>
+        <div class="prompt last"><span class="cursor"></span></div>
     </div>
 
 </body>
